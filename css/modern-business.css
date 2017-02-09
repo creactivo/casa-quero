@@ -47,6 +47,7 @@ h3{
 
 header.carousel {
     height: 80%;
+    padding-top: 80px;
 }
 
 header.carousel .item,
@@ -61,8 +62,20 @@ header.carousel .fill {
     background-position: center;
     background-size: cover;
 }
+.carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 100px;
+}
 .carousel-caption h1{
+    font-size: 150px;
     color: white;
+    text-shadow: 1px 1px 5px #fff;
+}
+.carousel-caption h3{
+    font-size: 40px;
+    color: white;
+    text-shadow: 1px 1px 5px #ccc;
 }
 /* 404 Page Styles */
 
@@ -87,6 +100,22 @@ header.carousel .fill {
 .period {
     display: block;
     font-style: italic;
+}
+.relative-cq{
+     position: absolute;
+}
+.color-fluid-datepicker-cq{
+    background-color: blue;
+    position: relative;
+    top: -150px;
+    left: 18%;
+
+}
+
+
+.modal-cq{
+    padding-top: 20%;
+
 }
 
 /* Footer Styles */
@@ -289,7 +318,6 @@ a:hover{
 
 
 .btn-special{
-    
     margin-left: 10px;
     padding: 12px 4%;
     border-radius: 5px;
@@ -319,9 +347,18 @@ a:hover{
     background-color: #fff;
     color: #0071BB;
 }
+.btn-date-picker{
+    margin: 10px 8px 10px;
+    padding: 14px 16px;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #0071BB;  
+}
+
 .mas-info-2{
     color: #fff;
 }
+
 .form-inline .btn-special{
     margin-left: 10px;
     padding: 12px 4%;
@@ -438,7 +475,7 @@ a:hover{
 .nuevo-nav{
     background-color: rgba(255, 255, 255, 1);
     position: fixed;
-    z-index: 1800;
+    z-index: 1020;
     /* border: none; */
     font-size: 15px;
     border-bottom-color: rgb(230, 247, 255);
@@ -935,7 +972,7 @@ line-height: 1.42857143;
 color: #555;
 background-color: #fff;
 background-image: none;
-border: 1px solid #fff;
+border: 1px solid #29aae1;
 border-radius: 6px;
 -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
 box-shadow: inset 0 1px 1px rgba(0,0,0,.075);

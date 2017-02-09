@@ -16,8 +16,7 @@
 
     <!-- Custom CSS -->
     <link href="css/modern-business.css" rel="stylesheet">
-    <link href="css/carousel-testimonio.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="bootstrap-datepicker/css/bootstrap-datepicker.css">
     <!-- Custom Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Alex+Brush|Dynalight|Pinyon+Script" rel="stylesheet">
@@ -99,8 +98,9 @@
             <div class="item active">
                 <div class="fill" style="background-image:url('images/caroucel-1.jpg');"></div>
                 <div class="carousel-caption">
-                    <h1>Un hotel más allá
-                        de lo ordinario</h1>
+                <h1>Casa Quero</h1>
+                    <p>Un hotel más allá
+                        de lo ordinario</p>
                 <div class="col-md-2 limpio">
                 
                 </div>
@@ -109,7 +109,9 @@
             <div class="item">
                 <div class="fill" style="background-image:url('images/caroucel-2.jpg');"></div>
                 <div class="carousel-caption">
-                    <h1>Caption 2</h1>
+                    <h3>Este es el titulo</h3>
+                    <p>Un hotel más allá
+                        de lo ordinario</p>
                     <div class="col-md-2 limpio">
                 
                 </div>
@@ -118,7 +120,9 @@
             <div class="item">
                 <div class="fill" style="background-image:url('images/caroucel-3.jpg');"></div>
                 <div class="carousel-caption">
-                    <h1>Caption 3</h1>
+                    <h3>Este es el titulo</h3>
+                    <p>Un hotel más allá
+                        de lo ordinario</p>
                     <div class="col-md-2 limpio">
                 
                 </div>
@@ -137,6 +141,26 @@
       </a>
         </div>
     </header>
+
+<div class="container relative-cq">
+    <div class="row">
+   <div class="color-fluid-datepicker-cq">
+        <div class="col-md-12">
+ 
+<div class="col-md-6 text-center">
+               <button type="button" id="botModal" class="btn btn-date-picker"><i class="fa fa-calendar fa-2x" aria-hidden="true"></i></button>
+    </div>
+    <div class="col-md-6 text-center">
+               <button type="button" id="botModal" class="btn btn-date-picker"><i class="fa fa-heart fa-2x" aria-hidden="true"></i></button>
+    </div>
+
+        </div>
+        </div>
+
+
+
+    </div>
+</div>
 
 <div class="container-fluid color-fluid-1">
                 <div class="container">
@@ -299,6 +323,7 @@
 
         </div>    
 </div>
+
 <footer>
     <div class="container-fluid">
         <div class="container">
@@ -360,14 +385,42 @@
     </div>
 </div>
 </footer>
+
+
+<div class="container">
+    <div class="row">
+                <div class="modal fade modal-cq" id="modal-date" tabindex="-1" role="dialog">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Modal title</h4>
+                      </div>
+                      <div class="modal-body">
+                            <div class="col-sm-6 col-md-6">
+                                <input type="text" class="form-control" id="cq-date">
+                            </div>
+
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                    </div><!-- /.modal-content -->
+                  </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+    </div>
+</div>
     <!-- /.container -->
+<!-- Modal -->
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/carousel-testimonio.js"></script>
+    <script src="bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+    <script src="js/app.js"></script>
 
     <!-- Script to Activate the Carousel -->
     <script>
