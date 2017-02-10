@@ -287,6 +287,9 @@ a:hover{
     border-radius: 5px;
     border: 1px solid #3FA8F4;
 }
+.form-inline .form-control-cq{
+    width: 60%;
+}
 .form-group {
     color: #666;
 }
@@ -306,14 +309,15 @@ a:hover{
 /*botones*/
 .btn-suscription{
     font-size: 20px;
-    color: #FFA730;
-    padding: 20px 15px;
-    border: 1px solid #FFA730;
-    background-color: #FDDFBF; 
-    border-radius: 0px;
+    color: #ffffff;
+    padding: 13px 24px;
+    border: 1px solid #29aae1;
+    background-color: #3fa8f4;
+    border-radius: 5px;
 }
 .btn-suscription:hover{
-  color: #F15A24;
+  color: #fff;
+  background-color: #29aae1;
 }
 
 
@@ -535,6 +539,8 @@ float: right;
     padding-right: 35px;
     padding-left: 35px; 
     list-style: none;
+    border-bottom: solid 1px #daf2ff;
+
 }
 .registro-2{
     padding-top: 23px;
