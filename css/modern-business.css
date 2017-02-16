@@ -491,7 +491,7 @@ padding-bottom: 30px;
 }
 
 .navbar-inverse .nuevo-navbar-toggle{
-    border-color: #ffb500;
+    border-color: #3fa8f4;
 
 }
 /* =====links del menu========*/
@@ -512,20 +512,20 @@ padding-bottom: 30px;
 
 /* =====contenedor de menu========*/
 .navbar-inverse .nuevo-navbar-toggle:hover{
-    background-color:#FFF2CD;
+    background-color:#daf2ff;
 
 }
 .navbar-inverse .nuevo-navbar-toggle:focus{
-    background-color:#FFF2CD;
+    background-color:#daf2ff;
 
 }
 
 .navbar-inverse .nuevo-navbar-toggle .icon-bar {
-background-color: #ffb500;
+background-color: #3fa8f4;
 }
 
 .navbar-inverse .nuevo-navbar-collapse, .navbar-inverse .navbar-form {
-border-color: #ffb500;
+border-color: #fff;
 float: right;
 }
 
