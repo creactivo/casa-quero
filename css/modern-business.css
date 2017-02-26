@@ -47,7 +47,6 @@ h3{
 
 header.carousel {
     height: 80%;
-    padding-top: 80px;
 }
 
 header.carousel .item,
@@ -62,20 +61,8 @@ header.carousel .fill {
     background-position: center;
     background-size: cover;
 }
-.carousel-caption {
-    right: 20%;
-    left: 20%;
-    padding-bottom: 100px;
-}
 .carousel-caption h1{
-    font-size: 150px;
     color: white;
-    text-shadow: 1px 1px 5px #fff;
-}
-.carousel-caption h3{
-    font-size: 40px;
-    color: white;
-    text-shadow: 1px 1px 5px #ccc;
 }
 /* 404 Page Styles */
 
@@ -100,22 +87,6 @@ header.carousel .fill {
 .period {
     display: block;
     font-style: italic;
-}
-.relative-cq{
-     position: absolute;
-}
-.color-fluid-datepicker-cq{
-    background-color: blue;
-    position: relative;
-    top: -150px;
-    left: 18%;
-
-}
-
-
-.modal-cq{
-    padding-top: 20%;
-
 }
 
 /* Footer Styles */
@@ -287,9 +258,6 @@ a:hover{
     border-radius: 5px;
     border: 1px solid #3FA8F4;
 }
-.form-inline .form-control-cq{
-    width: 60%;
-}
 .form-group {
     color: #666;
 }
@@ -309,19 +277,19 @@ a:hover{
 /*botones*/
 .btn-suscription{
     font-size: 20px;
-    color: #ffffff;
-    padding: 13px 24px;
-    border: 1px solid #29aae1;
-    background-color: #3fa8f4;
-    border-radius: 5px;
+    color: #FFA730;
+    padding: 20px 15px;
+    border: 1px solid #FFA730;
+    background-color: #FDDFBF; 
+    border-radius: 0px;
 }
 .btn-suscription:hover{
-  color: #fff;
-  background-color: #29aae1;
+  color: #F15A24;
 }
 
 
 .btn-special{
+    
     margin-left: 10px;
     padding: 12px 4%;
     border-radius: 5px;
@@ -351,18 +319,9 @@ a:hover{
     background-color: #fff;
     color: #0071BB;
 }
-.btn-date-picker{
-    margin: 10px 8px 10px;
-    padding: 14px 16px;
-    border-radius: 50px;
-    background-color: #fff;
-    color: #0071BB;  
-}
-
 .mas-info-2{
     color: #fff;
 }
-
 .form-inline .btn-special{
     margin-left: 10px;
     padding: 12px 4%;
@@ -479,7 +438,7 @@ a:hover{
 .nuevo-nav{
     background-color: rgba(255, 255, 255, 1);
     position: fixed;
-    z-index: 1020;
+    z-index: 1800;
     /* border: none; */
     font-size: 15px;
     border-bottom-color: rgb(230, 247, 255);
@@ -491,41 +450,58 @@ padding-bottom: 30px;
 }
 
 .navbar-inverse .nuevo-navbar-toggle{
-    border-color: #3fa8f4;
+    border-color: #ffb500;
 
 }
 /* =====links del menu========*/
 
- .navbar-inverse .nuevo-navbar-nav>li>a{
+.navbar-inverse .nuevo-navbar-nav>li>a{
     font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
     color: #0072ae;
     font-size: 14px;
 }
-
-
+ .navbar-inverse .nuevo-navbar-nav>.active>a{
+    color: #29aae1;
+    background-color: #fff;
+}
+.navbar-inverse .nuevo-navbar-nav>.active>a:hover{
+    color: #fff;
+    background-color: #29aae1;
+}
 
  .navbar-inverse .nuevo-navbar-nav>li>a:hover,.navbar-inverse .nuevo-navbar-nav>li>a:focus {
     color: #29aae1;
     
 }
-
-
+.dropdown-menu-cq{
+    background-color: #0072ae;
+}
+.dropdown-menu-cq>li>a {
+    padding: 10px 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.dropdown-menu-cq>li>a:hover {
+    color: #fff;
+    background-color:#29aae1; 
+}
 /* =====contenedor de menu========*/
 .navbar-inverse .nuevo-navbar-toggle:hover{
-    background-color:#daf2ff;
+    background-color:#FFF2CD;
 
 }
 .navbar-inverse .nuevo-navbar-toggle:focus{
-    background-color:#daf2ff;
+    background-color:#FFF2CD;
 
 }
 
 .navbar-inverse .nuevo-navbar-toggle .icon-bar {
-background-color: #3fa8f4;
+background-color: #ffb500;
 }
 
 .navbar-inverse .nuevo-navbar-collapse, .navbar-inverse .navbar-form {
-border-color: #fff;
+border-color: #ffb500;
 float: right;
 }
 
@@ -539,8 +515,6 @@ float: right;
     padding-right: 35px;
     padding-left: 35px; 
     list-style: none;
-    border-bottom: solid 1px #daf2ff;
-
 }
 .registro-2{
     padding-top: 23px;
@@ -978,7 +952,7 @@ line-height: 1.42857143;
 color: #555;
 background-color: #fff;
 background-image: none;
-border: 1px solid #29aae1;
+border: 1px solid #fff;
 border-radius: 6px;
 -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
 box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
